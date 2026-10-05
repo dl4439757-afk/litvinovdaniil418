@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="UTF-8"><title>DOM</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<div class="container">
+<header id="main-header"><h1>DOM манипуляции</h1></header>
+<section id="tasks-section">
+<div class="task-area"><h3>Задача 1: Создание элементов</h3><div class="target" id="target1"></div></div>
+<div class="task-area"><h3>Задача 2: Навигация</h3>
+<div class="family-tree"><div class="parent" id="parent-element">Родитель
+<div class="child">Ребёнок 1</div><div class="child">Ребёнок 2</div><div class="child special">Особый</div>
+</div></div></div>
+<div class="task-area"><h3>Задача 3: Классы</h3>
+<div class="style-demo" id="style-target">Элемент</div>
+<button id="toggle-style">Переключить</button></div>
+<div class="task-area"><h3>Задача 4: События</h3>
+<button id="click-btn">Нажми</button><div id="click-counter">Кликов: 0</div>
+<input type="text" id="text-input"><div id="input-display"></div></div>
+<div class="task-area"><h3>Задача 5: Списки</h3>
+<input type="text" id="item-input"><button id="add-item">Добавить</button><button id="clear-list">Очистить</button>
+<ul id="dynamic-list"></ul></div>
+<div class="task-area"><h3>Задача 6: Формы</h3>
+<form id="user-form">
+<div><label>Имя: <input type="text" id="user-name" required></label></div>
+<div><label>Email: <input type="email" id="user-email" required></label></div>
+<div><label>Возраст: <input type="number" id="user-age" min="1" max="120"></label></div>
+<button type="submit">Отправить</button></form>
+<div id="form-output"></div></div>
+</section></div>
+<script src="dom-tasks.js"></script><script src="dom-tests.js"></script>
+</body></html>

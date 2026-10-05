@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="UTF-8"><title>События</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<div class="container">
+<header><h1>Обработка событий</h1></header>
+<section>
+<div class="task-area"><h3>Задача 1</h3>
+<button id="basic-btn">Нажми</button>
+<div id="basic-output" class="output">Ожидание</div>
+<div class="color-box" id="color-box">Наведи</div>
+<div id="mouse-output" class="output">Координаты:</div></div>
+<div class="task-area"><h3>Задача 2: Клавиатура</h3>
+<input type="text" id="key-input" placeholder="Печатайте">
+<div id="key-output" class="output">Информация:</div></div>
+<div class="task-area"><h3>Задача 3: Делегирование</h3>
+<div id="item-list">
+<div class="item" data-id="1">Элемент 1 <span class="delete">x</span></div>
+<div class="item" data-id="2">Элемент 2 <span class="delete">x</span></div></div>
+<button id="add-item-btn">Добавить</button>
+<div id="delegation-output" class="output">Выбрано:</div></div>
+<div class="task-area"><h3>Задача 4: Предотвращение</h3>
+<a href="https://example.com" id="prevent-link" class="prevent-link">Ссылка</a>
+<form id="prevent-form"><input type="text" id="prevent-input"><button type="submit">Отправить</button></form>
+<div id="prevention-output" class="output">Результат:</div></div>
+<div class="task-area"><h3>Задача 5: Кастомные</h3>
+<button id="trigger-custom">Запустить</button>
+<div id="custom-output" class="output">Кастомные:</div></div>
+<div class="task-area"><h3>Задача 6: Загрузка</h3>
+<button id="load-image">Загрузить</button><button id="load-error">Ошибка</button>
+<div id="image-container" class="image-container"></div>
+<div id="loading-output" class="output">Статус:</div></div>
+<div class="task-area"><h3>Задача 7: Таймеры</h3>
+<button id="start-timer">Старт</button><button id="stop-timer">Стоп</button>
+<button id="debounce-btn">Debounce</button><button id="throttle-btn">Throttle</button>
+<div id="timer-output" class="output">Таймер: 0</div>
+<div id="async-output" class="output">Async:</div></div>
+</section></div>
+<script src="events-tasks.js"></script><script src="events-tests.js"></script>
+</body></html>

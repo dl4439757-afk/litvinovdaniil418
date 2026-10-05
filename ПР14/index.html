@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="UTF-8"><title>Fetch API</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<div class="container">
+<header><h1>Fetch API</h1></header>
+<section>
+<div class="task-area"><h3>Задача 1: GET</h3>
+<button id="fetch-get">GET</button><button id="fetch-json">JSON</button><button id="fetch-error">Ошибка</button>
+<div id="get-output" class="output">Результат:</div><div id="get-data" class="data-container"></div></div>
+<div class="task-area"><h3>Задача 2: CRUD</h3>
+<button id="fetch-post">POST</button><button id="fetch-put">PUT</button><button id="fetch-delete">DELETE</button>
+<div id="crud-output" class="output">CRUD:</div></div>
+<div class="task-area"><h3>Задача 3: Заголовки</h3>
+<button id="fetch-headers">Кастомные</button><button id="fetch-params">Параметры</button><button id="fetch-timeout">Timeout</button>
+<div id="headers-output" class="output">Заголовки:</div></div>
+<div class="task-area"><h3>Задача 4: Ответы</h3>
+<button id="fetch-status">Статус</button><button id="fetch-headers-response">Заголовки</button>
+<div id="response-output" class="output">Ответы:</div></div>
+<div class="task-area"><h3>Задача 5: Ошибки</h3>
+<button id="fetch-network-error">Сеть</button><button id="fetch-http-error">HTTP</button>
+<button id="fetch-abort">Отмена</button><button id="fetch-retry">Retry</button>
+<div id="error-output" class="output">Ошибки:</div></div>
+<div class="task-area"><h3>Задача 6: Параллельно</h3>
+<button id="fetch-promise-all">all</button><button id="fetch-promise-race">race</button><button id="fetch-sequential">Последовательные</button>
+<div id="parallel-output" class="output">Параллельно:</div></div>
+<div class="task-area"><h3>Задача 7: Сценарии</h3>
+<button id="fetch-user-posts">Юзер+посты</button><button id="fetch-search">Поиск</button><button id="fetch-cache">Кэш</button>
+<div id="scenario-output" class="output">Сценарии:</div></div>
+</section></div>
+<script src="fetch-tasks.js"></script><script src="fetch-tests.js"></script>
+</body></html>
