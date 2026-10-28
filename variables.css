@@ -1,0 +1,18 @@
+:root {
+  /* Цвета */
+  --color-primary: #2C3E50;
+  --color-accent: #3498DB;
+  --color-bg: #FFFFFF;
+  --color-bg-alt: #F5F7FA;
+  --color-text: #333333;
+  --color-text-light: #FFFFFF;
+
+  /* Шрифты */
+  --font-main: 'Roboto', Arial, sans-serif;
+
+  /* Размеры */
+  --container-width: 1200px;
+  --header-height: 80px;
+  --section-padding: 80px;
+  --card-gap: 30px;
+}
